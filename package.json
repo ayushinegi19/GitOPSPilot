@@ -16,5 +16,9 @@
     "morgan": "^1.10.0",
     "node-fetch": "^2.7.0",
     "pg": "^8.11.5"
-  }
+  },
+  "scripts": {
+  "start": "node src/server.js",
+  "test": "echo no tests yet && exit 0"
+}
 }
