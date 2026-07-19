@@ -3,6 +3,6 @@
     { "name": "install", "command": "npm install" },
     { "name": "test", "command": "npm test" },
     { "name": "build", "command": "docker build -t sample-app:latest ." },
-    { "name": "deploy", "command": "docker run -d --name sample-app -p 4000:4000 sample-app:latest" }
+    { "name": "deploy", "command": "docker run -d --name sample-app -p 4001:4000 sample-app:latest" }
   ]
 }
