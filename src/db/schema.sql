@@ -1,5 +1,4 @@
 -- GitOpsPilot database schema
--- Run this once against your Supabase Postgres database (SQL Editor or psql).
 
 create extension if not exists pgcrypto;
 
